@@ -1,0 +1,71 @@
+[ ] Criar a estrutura de Tabelas de Tag
+    [ ] A tabela se chamara Tag
+      [ ] {
+            TagId,
+            UserId,
+            Name,
+            Href,
+            HrefTemp,
+            ThumbNail,
+            Campaign,
+            Parameters,
+            Start,
+            End,
+            Deleted,
+            Active
+         }
+    [ ] Criar a vinculacao com usuario, 1 usuario pode ter varias Tags
+    [ ] Criar a migration para tabela Tag
+[ ] Criar a estrutura de Tabelas de Tag de Estatistica
+    [ ] A tabela se chamara TagManager
+      [ ] {
+            TagManagerId,
+            TagId,
+            Date,
+            Source,
+            IpSource,
+            EntityAs,
+            Isp,
+            City,
+            Country,
+            CountryCode,
+            Lat,
+            Long,
+            Org,
+            Query,
+            Region,
+            RegionName,
+            Status,
+            TimeZone,
+            Zip
+      }
+    [ ] Criar a vinculacao com para a Tabela Tag. 1 Tag podera conter varias TagManager
+    [ ] Criar a Migracao para esta tabela
+[ ] Criar uma tabela que contera a parametrizacao do usuario
+  [ ] A tabela se chamara UserSetting {
+      UserId,
+      HrefImg,
+      Theme,
+      Ico,
+      CssFile
+  }
+[ ] O usuario deve pode criar seus links e adicionar todos os atributos
+    [ ] Criar uma pagina unica para o usuario gerenciar todos os links
+    [ ] Mostrar como o usuario deve compartilhar sua pagina
+    [ ] Ficar atento ao tipo de tamanho de img, limitar extensao e tamaho
+[ ] O site deve renderizar a pagina de Links conforme atributos
+    [ ] Devera ser criar uma tabela que carregara todos os link e alguns atributos como link da img 
+    [ ] Na pagina de links a imagem do avatar podera ter um link 
+[ ] Ao clicar no link deve se registrar as estatisticas e redirecionar para a pagina cadastrada 
+    [ ] Sempre cirar um novo registro na tabela TabManager
+[ ] Criar uma identidade para o Site usando Boostrap 4
+[ ] Adicioanr minify ao projeto
+[ ] O usuario deve conseguir olhar as estatisticas de cada link
+   [ ] Ao clicar dentro da pagina de gerenciar Tag, o site deve abrir uma pagina dashboard do link 
+    [ ] Adicionar Grafico por Data
+    [ ] Adicionar Grafico por Region
+    [ ] Adicioanr Grafico por Mes
+    [ ] Ver Grafico por Mapa**
+[ ] Rodar a primeira vesao do App
+[ ] Divulgar nas rede FCC
+
