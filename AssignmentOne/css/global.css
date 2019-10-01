@@ -31,6 +31,8 @@ div.top {
 
 img.logo {
   height: 100px;
+  padding: 5px;
+  background-color: aliceblue;
 }
 
 .content h2,
