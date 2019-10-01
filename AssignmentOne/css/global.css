@@ -1,32 +1,90 @@
 /* html rules
 ----------------------------------------*/
 body {
-    color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: azure;
-    margin: 30px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: azure; */
+  margin: 30px;
 }
 
-
-h1{
-    
+h1 {
 }
 
+p {
+  font-size: 20px;
+}
 
+blockquote {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 100;
+}
+/* subclass rules 
+----------------------------------------*/
+
+div.top {
+  background-color: inherit;
+  float: left;
+  padding: 0px 0px 10px 0px;
+  margin-right: 20px;
+}
+
+img.logo {
+  height: 100px;
+}
+
+h2.title {
+  background-color: rgba(209, 201, 201, 0.205);
+  border-top: 1px dotted #333;
+  padding: 10px;
+  border-bottom: 1px dotted #333;
+  margin-bottom: 30px;
+}
+
+nav a {
+  padding: 10px;
+}
+
+nav b {
+  color: darkorange;
+  font-weight: 100;
+}
+
+a:link {
+  font-weight: 100;
+  color: #333;
+  text-decoration: none;
+}
+
+a:visited {
+  font-weight: bold;
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: darkorange;
+  text-decoration: underline;
+}
+
+a:active {
+  font-weight: bold;
+  color: darkorange;
+  text-decoration: underline;
+}
 
 /* id rules
 ----------------------------------------*/
 
-#top{
-    
- 
+#top {
 }
-
-
-
-
-
-
 
 /* class rules
 ----------------------------------------*/
+.hr {
+  border-bottom: 1px solid #333;
+}
+.clear {
+  clear: both;
+}
