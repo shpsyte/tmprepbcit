@@ -1,0 +1,22 @@
+table{
+    margin: auto;
+    border: 5px solid #bc7116;
+    width: 600px;
+}
+
+td, th{
+    border: 1px solid #bc7116;
+    padding: 0.5em;
+    font-family: Arial, sans-serif;
+}
+
+caption{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+table td:first-child{
+    background-color: #bc7116;
+}

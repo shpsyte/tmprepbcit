@@ -53,6 +53,8 @@ h2.title {
   border-bottom: 1px dotted #333;
   margin-bottom: 20px;
 }
+
+
 nav a {
   padding: 10px;
 }
@@ -111,6 +113,7 @@ dl dd.long {
 ----------------------------------------*/
 
 #top {
+
 }
 
 /* class rules
