@@ -1,0 +1,52 @@
+/* html rules
+----------------------------------------*/
+
+h2 {
+  background-color: rgb(221, 236, 248);
+}
+h2 b {
+  background-color: #0a0603;
+  color: white;
+}
+
+h3 {
+  margin-top: 30px;
+  background-color: #d2b48c;
+  padding: 10px;
+  color: #0a0603;
+  border-radius: 20px;
+}
+
+/* id rules
+----------------------------------------*/
+
+/* class rules
+----------------------------------------*/
+.main {
+  margin: 50px;
+}
+
+.code {
+  margin-top: 10px;
+  background-color: #f8f6f4b4;
+  white-space: pre;
+  border-radius: 10px;
+  line-height: 27px;
+
+  padding-right: 50px;
+}
+.selector {
+  color: greenyellow;
+}
+
+.tips-sec {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.element {
+  background-color: blue;
+  width: 350px;
+  height: 350px;
+  transform: rotate(45deg);
+}

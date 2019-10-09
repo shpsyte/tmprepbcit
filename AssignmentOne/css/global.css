@@ -54,7 +54,6 @@ h2.title {
   margin-bottom: 20px;
 }
 
-
 nav a {
   padding: 10px;
 }
@@ -107,13 +106,6 @@ dl dd.short {
 
 dl dd.long {
   padding: 0px 0px 20px 0px;
-}
-
-/* id rules
-----------------------------------------*/
-
-#top {
-
 }
 
 /* class rules

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Technique of Week</title>
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="css/special.css">
+</head>
+<body>
+
+ <h1>The CSS Technique of the <b>Week!!!</b></h1>
+
+ <div class="main">
+    <p>The techique of this week is <strong>SELECTORS</strong></p>
+    <h2>What Are Selectors?</h2>
+
+    <p>Selectors as patterns that match against elements in a tree. Most of the selectors from the Level 4 specification are pseudo-classes. Selectors have been with us since the beginning of CSS, but now they are at the fourth level and have gotten a lot of cool new additions. Let’s jump into the action and see what’s interesting.</p>
+
+<h2>LOGICAL COMBINATORS:<b>:MATCHES, :NOT</b></h2>
+<div class="tips">
+  <h2><b>:MATCHES</b></h2>
+
+
+  <p>This selector allows us can group and match items in our CSS document. Why is it so useful? 
+  see with your eyes...…</p>
+  
+  <h3>Instant of</h3>
+
+    <div class="code clear">
+      ul.menu li a:link,
+      ul.menu li a:hover,
+      ul.menu li a:visited,
+      ul.menu li a:focus {
+          color: red;
+      }
+    </div>
+
+
+    <h3 class="clear">We can</h3>
+
+    <div class="code clear">
+      ul.menu li a:matches(:link, :hover, :visited, :focus) {
+        color: red;
+      }
+    </div>
+ <p>Simple, right? ;)</p>
+
+
+</div>
+ 
+
+ 
+
+<div class="tips-sec">
+
+  <h2><b>:NOT</b></h2>
+
+  <p>:not, the simple negation pseudo-class, which now can take a list of selectors as parameters:…</p>
+   
+    <div class="code clear">
+      p:not(.active, .visible) {
+        color: red;
+      }
+    </div>
+
+ 
+ <p>The above code will apply <i>COLOR: RED</i> to ALL paragraphs that are not assigned <i>active, visible</i> class.</p>
+
+
+</div>
+ 
+
+
+<h2>LOCATION PSEUDO-CLASSES:<b>:ANY-LINK, :LOCAL-LINK</b></h2>
+<div class="tips">
+  <h2><b>:ANY-LINK</b></h2>
+
+
+  <p>we will have more control over the styling of links…</p>
+  
+  <h3>Instant of</h3>
+
+    <div class="code clear">
+      a:link,
+      a:visited {
+        color: red;
+      }
+    </div>
+
+
+    <h3 class="clear">We can</h3>
+
+    <div class="code clear">
+      a:any-link {
+        color: red;
+      }
+    </div>
+ <p>Simple, right? ;)</p>
+
+
+ <h2><b>:LOCAL-LINK</b></h2>
+
+
+  <p>You could give a different style to the links that target your home page, leaving all others elements:</p>
+   
+    <div class="code clear">
+     nav :local-link {
+        text-decoration: none;
+      }
+    </div>
+
+ 
+
+
+</div>
+ 
+
+</div>
+
+ 
+ 
+ 
+  
+</body>
+</html>
