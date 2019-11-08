@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: url(images/bg.jpg) repeat-x fixed #e1a46b;
+}
+
+a:link {
+    color: #c63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fc6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fc6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    border: 0;
+}
+
+#wrapper {
+    width: 750px;
+    margin: auto;
+    text-align: left;
+    font-size: .90em;
+    font-family: arial,helvetica,sans-serif;
+    background-color: #e7e4dc;
+}
+
+header {
+    background-color: #c4bba8;
+    margin: 0;
+    padding: 20px 0 0 15px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    float: left;
+}
+
+section {
+    margin-left: 210px;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 20px;
+    background-color: #fff;
+}
+
+footer {
+    margin: 0;
+    padding: 10px;
+    background-color: #c4bba8;
+}
+
+nav li {
+    display: block;
+}
+
+nav a:link, nav a:visited {
+    color: #e60;
+    background-color: #d2cec3;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    display: block;
+    margin: 20px 20px 20px -20px;
+}
+
+nav a:hover, nav a:active {
+    text-decoration: none;
+    color: #554d49;
+    background-color: #c9c5bb;
+}
+
+.navcurrent {
+    color: #554d49;
+    background-color: #c9c5bb;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    display: block;
+    margin: 20px 20px 20px -20px;    
+}
+
+.mainimg {
+    float: right;
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid #e7e4dc;
+}
+
+
+.clearall
+{
+    clear: both;
+}
+
+/*  form rules
+-----------------------------------------------------*/
+
+#contactform{
+    margin: 10px;
+    min-width: 95%;
+}
+
+.formrow
+{
+    padding: 8px 0; 
+    margin: 7px 0;
+}
+
+
+.altrow
+{
+    padding: 8px 0; 
+    margin: 7px 0;
+    background-color: #eee;
+}
+
+.labelcol{
+    width: 150px;
+    padding: 0 15px;
+    font-weight: bold;
+    float: left;
+}
+
+.filedcol
+{
+    margin-left: 180px;
+}
+
+
+#formsubmit
+{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.subbutton
+{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+

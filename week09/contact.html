@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Widgetwerks Inc. | Contact Us</title>
+<link rel="stylesheet" href="global.css" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<a href="index.html"><img src="images/wwlogo.png" width="240" height="84" alt="widgetwerks logo"></a>
+	</header>
+	<main>
+		<nav>
+			<ul>
+				<li><a href="partners.html">Partners</a></li>	
+				<li><a href="stuff.html">Stuff</a></li>
+				<li><span class="navcurrent">Contact</span></li>	
+				<li><a href="index.html">Home</a></li>
+			</ul>			
+		</nav> 
+		<section>
+		<h1>Contact Us</h1>
+
+		
+		<p>We are located at the corner of Dunderhead and Fleeb. Can't miss us, really. But in case you want to send us email or something, here's the info:</p>
+		
+		<p><b>WidgetWerks Inc.</b><br>
+		#01 - 12786 Dunderhead Ave.<br>
+		Springfield, BC<br>
+		Canada V6Y 0H0</p>
+		
+		<p><b>Tel:</b> 778.312.3212<br>
+		<b>Fax:</b> 778.312.3212<br>
+		<b>Email:</b> <a href="mailto:info@widgetwerks.com">info@widgetwerks.com</a></p>
+		
+		<h2>Send us some feedback!</h2>
+
+		<div id="contactform">
+			<form action="formmail.php" method="post">
+
+
+				
+				<input type="hidden" name="recipient" id="recipient" value="joseph">
+				<input type="hidden" name="subject" id="subject" value="Feddback from Jose`s website">
+				<input type="hidden" name="redirect" id="redirect" value="thanks.html">
+				<input type="hidden" name="sort" id="sort" value="order:name,email,comments,source,site,interests1,
+				interests2,interests3,interests4">
+
+				<div class="formrow">
+					 <label class="labelcol" for="name">Name:</label>
+					 <input type="text" name="name" id="name" size="30">
+				</div>
+
+				<div class="altrow">
+					<label for="email" class="labelcol">Email:</label>
+					<input type="text" name="email" id="email" size="30">
+				</div>
+
+				<div class="formrow">
+						<label class="labelcol" for="comments">Comments:</label>
+						<textarea name="comments" id="comments" rows="5" cols="35"></textarea>
+				</div>
+	
+	
+				<div class="altrow">
+						<label for="source" class="labelcol">Where do you hear about us:</label>
+						<select name="source" id="source">
+								<option selected="selected">Please chose...</option>
+								<option value="search">Search Engine</option>
+								<option value="friend">From a friend</option>
+								<option value="wall">On a bathroom</option>
+						</select>
+
+						<br class="clearall">
+
+				</div>
+
+				<div class="formrow">
+					<span class="labelcol">
+						What do hyou think about of our site?
+					</span>
+					<input type="radio" name="site" id="perfect" value="perfect" checked="checked">
+					<label for="perfect">Perfect</label><br>
+					<input type="radio" name="site" id="awful" value="awful">
+					<label for="awful">Perfectly Awful</label>
+				</div>
+
+				<div class="altrow">
+					<span class="labelcol">
+						What are you interested in?
+					</span>
+					<div class="filedcol">
+						<input type="checkbox" name="interests" id="interests1" value="cpts"> <label for="interests1">CPTs</label><br>
+						<input type="checkbox" name="interests" id="interests2" value="lbds"> <label for="interests2">LBDs</label><br>
+						<input type="checkbox" name="interests" id="interests3" value="bosts"> <label for="interests3">BoSTs</label><br>
+						<input type="checkbox" name="interests" id="interests4" value="refund"> <label for="interests4">How to get my money back</label>
+					</div>
+				</div>
+				<div id="formsubmit">
+					<input class="subbutton" type="submit" value=" Submit form ">
+					<input class="subbutton" type="reset" value=" Reset form ">
+				</div>
+	
+			</form>
+
+		</div>
+
+	</section>
+	</main>
+	<footer>
+		<p>Web site design by the fantasy division of runwithscissors design<br>
+		Copyleft &#169; 1999-2018 WidgetWerks Inc. All rights reserved.</p>
+	</footer>
+</div>
+</body>
+</html>
