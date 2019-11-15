@@ -12,71 +12,109 @@
 	<main>
 		<section>
 			<h1>Hand-On Exercises.</h1>
-			<div class="mainimg">
-			<img src="images/home.jpg" alt="" width="150" height="150">
-			</div>
-      <a class="back" href="index.html"><<- Back</a>
+			<br>
+			<header>
+			   <nav>
+				   <ul>
+
+					    <li><a href="number1.html">Exercice number 1</a></li>
+					    <li><a href="number2.html">Exercice number 2</a></li>
+					    <li><a href="number3.html">Exercice number 3</a></li>
+					    <li><a href="number4.html">Exercice number 4</a></li>
+					    <li><a href="number5.html">Exercice number 5</a></li>
+					 
+					 </ul>
+				    
+				 </nav>
+			</header>
       <div class="exercicies">
 		     	<h2>Number #5</h2>
 				<div class="contactform">
+				   <p class="title">Music Survey</p>
+					 <br>
            <form action="http://webdevbasics.net/scripts/demo.php" method="post">
 
 					 <input type="hidden" name="userid" id="userid">
 
            <div class="control">
-                <label for="name">User Name</label>
-                <input type="text" required="required" name="name" id="name" maxlength="30" size="40">
+                <label for="name">Name</label>
+                <input type="text" required="required" name="name" id="name" maxlength="30" size="50">
 					 </div>
 
 
            <div class="control">
-                <label for="width">With</label>
-                <input type="number" required="required" name="width" id="width" size="10" maxlength="10">
+                <label for="email">Email</label>
+                <input type="email" required="required" name="email" id="email" size="50" maxlength="200">
 					 </div>
 
-           <div class="control">
-                <label for="width">height</label>
-                <input type="number" required="required" name="height" id="height" size="10" maxlength="10">
-					 </div>
-
-
-  				  <div class="control">
-                <label for="color">Back Ground Colour</label>
-                <input type="color" name="color" id="color" >
-					 </div>
-					 <br>
+           
 					 
-					 
+					 <div class="control music">
+					  <fieldset class="small">
+ 						<legend>Select Your Favorite Types of Music</legend>
+								
+
+		             <input type="checkbox" name="type" id="pop" value="pop">
+								 <label for="pop">Pop</label><br>
+
+		             <input type="checkbox" name="type" id="classical" value="classical">
+								 <label for="classical">Classical</label><br>
+						 
+		             <input type="checkbox" name="type" id="rock" value="rock">
+								 <label for="rock">Rock</label><br>
+
+		             <input type="checkbox" name="type" id="folk" value="folk">
+								 <label for="folk">Folk</label><br>
+
+		             <input type="checkbox" name="type" id="rap" value="rap">
+								 <label for="rap">Rap</label><br>
+
+		             <input type="checkbox" name="type" id="Other" value="other">
+								 <label for="other">Other</label>
+						 </fieldset>
+					 </div>
+
+					 <div class="control music">
+					  <fieldset class="small">
+						<legend>Select how often you pruchase Music:</legend>
+						 
+						 <input type="radio" name="frequency" id="weekly">
+						 <label for="weekly">Weekly</label><br>
+
+						 <input type="radio" name="frequency" id="year" checked="checked">
+						 <label for="year">A few CDs each year</label><br>
+
+							 <input type="radio" name="frequency" id="montly">
+						 <label for="montly">Montly</label><br>
+
+						 <input type="radio" name="frequency" id="never">
+						 <label for="never">Never Purchase</label>
+						 </fieldset>
+					 </div>
+
 					 <div class="control">
-							<label for="template">Pick a template template:</label><br>
-							<select name="template" id="template">
-									<option selected="selected">No img...</option>
-									<option value="one">One image</option>
-									<option value="two">Two images</option>
-									<option value="three">Three images</option>
-							</select>
-
-	
-  					</div>
+					   <label class="location" for="locations">Select the location you listen to Music</label><br>
+						 <select  name="location" id="location" size="3">
+								<option selected="selected" value="Home">At Home</option>
+								<option value="car">In the car</option>
+								<option value="any">Anywhere</option>
+								<option value="work">At Work</option>
+						</select>
 
 						<div class="control">
-						    <fieldset>
-    						<legend>Provide text to add in Front of Brochure:</legend>
-										<textarea name="front" id="front" cols="145" rows="20"></textarea>
-							  </fieldset>
-						</div>
-
-						<div class="control">
-						    <fieldset>
-    						<legend>Provide text to add in Back of Brochure:</legend>
-										<textarea name="back" id="back" cols="145" rows="20"></textarea>
-							  </fieldset>
+						   <label class="location" for="comments">What role does music play in your life?</label><Br>
+							 <textarea name="comments" id="comments" cols="60" rows="3"></textarea>
 						</div>
 
 
-						<button type="submit">
-						   <img name="signup.gif" id="signup.gif" src="signup.png" width="120" alt="">
-						</button>
+					 </div>
+
+
+					 <br class="clear">
+
+					
+						<button class="btn btn-submit" type="submit" value="submit">Submit</button>
+						<button class="btn btn-reset" type="reset" value="reste">Reset</button>
 
 						
 
@@ -89,7 +127,8 @@
 		</section>
 	</main>
 	<footer>
-		<p>Web site design by Jose Luiz.</p>
+	 <br>
+		<p>Web site design by <b>Jose Luiz</b>, if you have question you can contact me at <a href="mailto:jose.iscosistemas@gmail.com">jose.iscosistemas@gmail.com</a> </p>
 	</footer>
 </div>
   

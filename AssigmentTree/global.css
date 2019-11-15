@@ -67,7 +67,7 @@ header nav li {
 }
 
 #wrapper {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
 }
 
 #contactform {
@@ -136,16 +136,37 @@ header nav li {
 }
 .control label {
   width: 150px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   font-weight: bold;
   float: left;
 }
+
+.control select {
+  width: 350px;
+}
+.music label {
+  float: none;
+  margin-top: 50px;
+}
+
+.music input {
+  margin-top: 0px;
+}
+
 .radio label {
-  width: 30px;
   padding: 0 15px;
   font-weight: bold;
   float: left;
   text-align: right;
+}
+
+.small {
+  width: 570px;
+}
+
+.line {
+  border-top: 1px solid gray;
+  margin: 10px;
 }
 
 .control {
@@ -164,6 +185,65 @@ fieldset label {
   text-align: right;
 }
 .back {
-  padding: 20px;
+  padding: 15px;
   border: 1px dotted grey;
+}
+.contactform p {
+  margin-left: 15px;
+}
+
+.btn {
+  padding: 10px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 2px 2px 0px rgba(128, 128, 128, 0.438);
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background: greenyellow;
+  border: 1px rgb(118, 179, 26) solid;
+}
+
+.btn-reset {
+  background: skyblue;
+  border: 1px rgb(88, 155, 182) solid;
+}
+
+.title {
+  text-align: center;
+  background-color: #e7d2b5;
+  padding: 20px;
+  color: #221811;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.checkbx {
+  text-align: left;
+}
+
+.location {
+  width: 400px !important;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  border: 1px solid grey;
+  height: 20px;
+}
+
+input:hover {
+  border: 1px solid tomato;
+}
+
+input:focus {
+  border: 1px solid tomato;
+}
+
+#location {
+  clear: both;
 }
