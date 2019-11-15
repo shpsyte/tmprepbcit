@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assigment</title>
+  <link rel="stylesheet" href="global.css">
+ 
+</head>
+<body>
+  <div id="wrapper">
+	<main>
+		<section>
+			<h1> <a id="title" href="index.html">Hand-On Exercises (JavaScript).</a> </h1><br>
+			<header>
+				<nav>
+					<ul>
+						<li><a href="number3.html">Exercise number 3</a></li>
+						<li><a href="number4.html">Exercise number 4</a></li>
+						<li><a href="number5.html">Exercise number 5</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="exercicies">
+				<h2>Number #4</h2>
+				<div class="contactform">
+					<div>
+						<label for="name">Name:</label>
+						<span id="name" name="name"></span>
+					</div>
+
+					<div>
+						<label for="name">Age:</label>
+						<span id="age"></span>
+					</div>
+
+					</div>
+					<br>
+
+					<button class="btn" onclick="promptuser()">Again</button>
+				 
+			</div>
+  </section>
+	</main>
+	<footer>
+		<p>Web site design by Jose Luiz.</p>
+	</footer>
+</div>
+<script>
+		function promptuser()
+		{
+			
+			var name = prompt("Please type your name");
+			var age = prompt("Please type your age");
+
+			
+			
+			document.getElementById("name").innerHTML = name;
+			document.getElementById("age").innerHTML = age;
+		}
+
+		promptuser();
+   </script>
+   
+<!-- <script src="Global.js"></script> -->
+</body>
+</html>

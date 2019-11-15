@@ -1,0 +1,178 @@
+/* primary rules
+----------------------*/
+
+body {
+	margin: 0;
+	background: #e1a468 url(images/bg.jpg) repeat-x;
+	text-align: center;
+	}
+	
+a:link {
+	color: #c63;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #555;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #fc6;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+
+a:active {
+	color: #fc6;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+#wrapper {
+	width: 900px;
+	text-align: left;
+	margin: auto;
+	background-color: #e7e4dc;
+	font-family: arial, helvetica, sans-serif;
+	font-size: .90em;
+	}
+
+header {
+	padding-left: 15px;
+	padding-top: 20px;
+	margin-bottom: 0;
+	background-color: #c4bba8;
+	}
+	
+main {
+	margin: 0;
+	padding: 0;
+	background-color: #e7e4dc;
+}
+	
+	
+nav {
+	position: relative;
+	display: inline-block;
+	width: 210px;
+	margin: 0;
+	float: left;
+}
+
+section {
+	padding: 10px;
+	padding-left: 30px;
+	margin-bottom: 0px;
+	margin-left: 210px;
+	background: #fff;
+	}
+
+footer {
+	margin: 0;
+	padding: 10px;
+	padding-left: 20px;
+	background-color: #c4bba8;
+}
+
+.dropbtn, .dropbtn:visited {
+	color: #e60;
+	background-color: #d2cec3;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 20px 20px 0 20px;
+	padding: 10px;
+	display: block;
+}
+
+.dropbtn:hover {
+	text-decoration: none;
+	color: #554d49;
+	background-color: #c9c5bb;
+}
+
+.dropdown-content {
+	margin: 0;
+	display: none;
+ 
+}
+	
+.dropdown-content a:link, .dropdown-content a:visited {
+	color: #e60;
+	background-color: #f1f0ed;
+	font-size: .90em;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 2px 20px 0 20px;
+	padding: 8px 8px 8px 20px;
+	display: block;
+}	
+
+.show {
+	display: block;
+}
+
+.navcurrent {
+	color: #554d49;
+	background-color: #c9c5bb;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	display: block;
+}
+
+img {
+	border: 0;
+}
+
+.mainimg {
+	float: right;
+	margin: 10px;
+	padding: 7px;
+	border: 1px solid #e7e4dc;
+}
+
+/* form rules
+----------------------*/
+
+#contactform {
+    min-width: 95%;
+    margin: 10px;
+}
+
+.formrow {
+    padding: 8px 0;
+    margin: 7px 0;
+}
+
+.altrow {
+    padding: 8px 0;
+    margin: 7px 0;
+    background-color: #eee;
+}
+
+.lcol {
+    width: 150px;
+    font-weight: bold;
+    padding: 0 15px;
+    float: left;
+}
+
+.formsubmit {
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.rcol {
+    margin-left: 180px;
+}
+
+
+
+

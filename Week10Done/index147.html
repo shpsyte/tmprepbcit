@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hands-On 145</title>
+
+    <script>
+        function promptQuantity()
+        {
+            var quantity;
+            quantity = prompt("Type a quantity greater than 0");
+
+            if (quantity <= 0)
+            {
+                document.write("<p>Quantity is not greater than 0.</p>");
+                document.write("<p>Please regresh the we page.</p>");
+            }else{
+                quantity = `Quantity was ${quantity}`
+                document.write(`<p>${quantity}</p>`)
+            }
+        }
+    
+    </script>
+</head>
+<body>
+    <h1>Using JavaScrit</h1>
+    <input type="button" value="Click to enter quantity" onclick="promptQuantity()">
+     
+</body>
+</html>
