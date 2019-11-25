@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Stanley Park - British Columbia</title>
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/slideshow.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <!--#include virtual="header.html"-->
+      </nav>
+    </header>
+    <main>
+      <section class="bg-gray text-left">
+        <h2 class="pb-20 mb-20 bb">Stanley Park</h2>
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./images/Stanley-Park-racoons-720-250px.jpg" style="width:100%">
+
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./images/Stanley-Park-Seawall-biking-720-250px.jpg" style="width:100%">
+
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./images/Stanley-Park-trails-720-250.jpg" style="width:100%">
+
+          </div>
+
+
+        </div>
+        <p class="text-news">
+          Welcome to Stanley Park, Vancouver's first, largest, and most beloved urban park!
+          Stanley Park is a magnificent green oasis in the midst of the urban landscape of Vancouver.
+
+          Explore the 400-hectare natural West Coast rainforest and enjoy scenic views of water, mountains, sky, and
+          majestic trees along Stanley Park's famous Seawall. </p>
+
+        <p class="text-news">Discover kilometres of trails, beautiful beaches, local wildlife, great eats, natural,
+          cultural and historical landmarks, along with many other adventures. The park offers a wide range of
+          unforgettable experiences for all ages and interests, including Canada’s largest aquarium.</p>
+      </section>
+
+      <section class="bg-write text-left">
+        <h2 class="pb-20 mt-20 bb">Getting here</h2>
+        <p class="text-news">
+          Walk, bike, take transit, or drive — it's easy to get to Stanley Park, just minutes from downtown in
+          Vancouver's West End.
+
+          Check out our Stanley Park maps to decide where you want to start and what you want to see and do. Choose from
+          a selection of maps depending on your needs and interests. </p>
+
+
+
+        <div class="link-h">
+          <ul>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/stanley-park-digital-map.aspx">Digital Map</a></li>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/printable-map-of-stanley-park.aspx">Printable
+                Map</a></li>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/directions-to-stanley-park.aspx">Directions</a></li>
+          </ul>
+        </div>
+
+
+      </section>
+
+      <section class="bg-gray text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">What to do in Stanley Park</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          With so much to experience, make a day out of your visit!
+
+          Explore the park with a guided tour or discover it on your own. Plan some family fun activities at any number
+          of destinations. Play a game of tennis or golf with a friend or take someone special out to dinner. The choice
+          is yours.</p>
+
+        <div class="link-h">
+          <ul>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/play-in-stanley-park.aspx">Play</a></li>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/stanley-park-miniature-train.aspx">Ride the
+                Stanley</a></li>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/explore-stanley-park.aspx">Explore</a></li>
+          </ul>
+        </div>
+
+
+      </section>
+
+      <section class="bg-write text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">What to see in Stanley Park</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          Be inspired by historic artifacts, famous landmarks, monuments, First Nations and other works of art, and
+          stunning gardens in Stanley Park, a Canadian National Historic Site..</p>
+
+        <div class="link-h">
+          <dl class="text-news">
+            <dt><b>Gardens</b></dt>
+            <dd>Be sure to stop and smell the flowers of the many gorgeous gardens in Stanley Park. Find information
+              about some of the park's most beautiful gardens, including the best time of year to visit them. </dd>
+            <br>
+
+            <dt><b>Landmarks</b></dt>
+            <dd>No trip to Stanley Park is complete without visiting its famous landmarks: Lost Lagoon, Siwash Rock, the
+              Hollow Tree, Beaver Lake and Prospect Point. </dd>
+            <br>
+
+            <dt><b>Monuments and sculptures</b></dt>
+            <dd>Stanley Park has been the recipient of a wide range of monuments, sculptures, and plaques through its
+              history. Find information about these points of interest. </dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray text-center">
+      <!--#include virtual="footer.html"-->
+    </footer>
+  </div>
+
+  <script src="./javascript/slide.js"></script>
+</body>
+
+</html>

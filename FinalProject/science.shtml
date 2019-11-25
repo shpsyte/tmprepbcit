@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Science Word - British Columbia</title>
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/slideshow.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <!--#include virtual="header.html"-->
+      </nav>
+    </header>
+    <main>
+      <section style="min-height:330px" class="bg-gray text-left">
+        <h2 class="pb-20 mb-20 bb">Science Word</h2>
+        <img class="img-feature pull-left" width="300" src="./images/science-world-at-telus.jpg">
+        <p class="text-news clear-right">
+          Science World, formally Science World at Telus World of Science, is a science centre run by a not-for-profit
+          organization in Vancouver, British Columbia, Canada.
+          In early 2017, Science World embarked on a community engagement and consultation process to re-evaluate the
+          role of the
+          organization over the next generation. Though research, internal consultations and a province-wide community
+          engagement
+          process, Science World defined a new mission and vision, as well as new strategic pillars that will inform how
+          they
+          serve the community going forward.
+
+          Mission—Through science and nature, we ignite wonder and empower dreams.
+
+          Vision—Within a generation, Canada will be a country of thriving, sustainable communities rooted in science,
+          innovation
+          and a deep connection to nature.
+        </p>
+
+        <div class="link-h">
+          <ul>
+            <li><a target="_blank" href="https://www.scienceworld.ca/">Official WebSite</a></li>
+
+
+          </ul>
+        </div>
+
+      </section>
+
+
+
+      <section style="min-height:330px" class="bg-write text-left">
+        <h2 class="pb-20 mt-20 bb">TELUS World of Science</h2>
+
+        <p class="text-news">
+          TELUS World of Science hosts engaging hands-on galleries and exhibits, teaching labs and classrooms, as well
+          as Science
+          World’s two theatres.
+
+          The OMNIMAX® Theatre, the world’s largest dome theatre for screening large-format, features educational films
+          and hosts
+          renowned speakers such as Jane Goodall and Chris Hadfield. Seating 410 people, the theatre’s screen is 27
+          metres in
+          diameter and five storeys high. It features twenty-eight speakers and a massive sub-bass driver at the front
+          of the
+          theatre, which contributes to an unparalleled surround sound experience.
+
+          The high-definition Science Theatre immerses visitors in experiential learning opportunities with educational
+          films and
+          experimental live stage performances which educate and complement exhibit themes.
+        </p>
+
+
+      </section>
+
+      <section class="bg-gray text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">Feature Exhibitions</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          The Feature Gallery at TELUS World of Science showcases temporary exhibitions created, designed and built by
+          Science
+          World or rented from a variety of sources. Continually bringing new, diverse and current learning
+          opportunities to the
+          people of British Columbia, feature exhibitions and accompanying programs change three to four times a year.
+          Previous
+          feature galleries include The Science Behind Pixar, The Science of Ripley’s Believe It or Not!, Body Worlds:
+          Animal
+          Inside Out, Ultimate Dinosaurs, and LEGO® Travel Adventure.
+        </p>
+
+
+      </section>
+
+
+      <section class="bg-write text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">Community Engagement Programs</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          Science World’s community engagement programs bring hands-on opportunities to youth across the province who
+          may not have access to TELUS World of Science in Vancouver. Last year, volunteers visited 420 schools in 128
+          communities across
+          British Columbia, delivering free presentations to over 35,000 students—all with the goal of inspiring
+          students to explore careers in STEAM fields.
+
+        </p>
+      </section>
+    </main>
+    <footer class="bg-gray text-center">
+      <!--#include virtual="footer.html"-->
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

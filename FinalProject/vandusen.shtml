@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>VanDusen Park - British Columbia</title>
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/slideshow.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <!--#include virtual="header.html"-->
+      </nav>
+    </header>
+    <main>
+      <section class="bg-gray text-left">
+        <h2 class="pb-20 mb-20 bb">Van Dusen Park</h2>
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="op-0200" src="./images/daffodils-landing-carousel-image.jpg" style="width:100%">
+
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img class="op-0200" src="./images/visitor-centre-landing-image-carousel.jpg" style="width:100%">
+
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img class="op-0100" src="./images/barred-owl-landing-image-carousel.jpg" style="width:100%">
+
+          </div>
+
+
+        </div>
+        <p class="text-news">
+          VanDusen Botanical Garden is a 55-acre oasis in the heart of Vancouver with over 7,500 plant species and
+          varieties from around the world! Spot and photograph local wildlife, find your way through an Elizabethan
+          hedge maze, unwind in a serene setting, dine on the patios of Truffles Cafe or Shaughnessy Restaurant, or
+          browse the garden-themed gift shop. VanDusen has something for everyone to enjoy! </p>
+
+        <p class="text-news">The Garden's multi-award winning LEED Platinum Visitor Centre was named Most Sustainable
+          Building of the Year in 2014. Shaped like an orchid when viewed from above, its organic lines echo the way
+          nature and conservation have been considered at every turn.</p>
+
+
+        <div class="link-h">
+          <ul>
+            <li><a target="_blank"
+                href="https://vancouver.ca/parks-recreation-culture/vandusen-location-and-hours.aspx">Hours</a></li>
+
+          </ul>
+        </div>
+
+      </section>
+
+      <section class="bg-write text-left">
+        <h2 class="pb-20 mt-20 bb">Affordable admission for the entire family</h2>
+        <p class="text-news">
+          Prices do not include GST. </p>
+        <table border="1">
+          <thead>
+            <tr>
+              <th> <b>Age</b></th>
+              <th> <b>Price</b></th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Adult </td>
+              <td>$8.00</td>
+            </tr>
+            <tr>
+              <td>Senior (65+) </td>
+              <td>$5.50</td>
+            </tr>
+            <tr>
+              <td>Child (5-12) </td>
+              <td>$4.25</td>
+            </tr>
+            <tr>
+              <td>Children (4 and under) </td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Groups of 10 or more </td>
+              <td>10% off regular admission fees</td>
+            </tr>
+
+
+          </tbody>
+
+        </table>
+
+
+        <p class="text-news">
+        </p>
+
+      </section>
+
+      <section class="bg-gray text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">Experience a 55-acre oasis in the heart of Vancouver</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          VanDusen Botanical Garden spans 55 acres and contains over 7,500 plant species from around the world.</p>
+
+        <p class="text-news">
+          Unwind in a serene setting nestled in the heart of the city with picturesque lakes, a tranquil waterfall,
+          inspiring architecture, beautiful sculptures, and 50 botanical collections.</p>
+
+        <p class="text-news">
+          There’s always something new blooming in the garden every couple of weeks. Check our bloom calendar to get an
+          idea of what’s in bloom every month of the year.
+        </p>
+
+      </section>
+
+      <section class="bg-write text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">Accessibility</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          The Visitor Centre, Administration Building, Floral Hall, Shaughnessy Restaurant, and most paved garden paths
+          are fully accessible to wheelchairs, scooters, and walkers. Many of the pathways, both paved and unpaved, can
+          be uneven. Care should be taken for those using walking aids. Some steps do not have handrails or handrails on
+          both sides. Accessible washrooms are located in the Visitor Centre.</p>
+      </section>
+
+      <section class="bg-write text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">VanDusen Festival of Lights</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          We highly recommend buying tickets in advance to save money, skip the line, and secure your spot.
+
+          There is a maximum number of online tickets available each night and we are likely to sell out from December
+          14 to 24..</p>
+
+        <b>Ticket details</b>
+        <p class="text-news">
+          Coupons, discount offers, and admission vouchers are valid for regular daytime garden admission, but not for
+          special events including VanDusen Festival of Lights. These include the Tourism Challenge Privilege Pass,
+          Vancouver Inspiration Pass, Leisure Access Pass, and Entertainment Book coupons, Viator vouchers, and VanPass
+          vouchers
+          VBGA member rates are available online only for those with current memberships
+          Hard copy tickets are priced at premium gate admission rates and are available for purchase from admissions at
+          VanDusen Botanical Garden during regular day time garden hours. They are valid for any event night
+          There will be a limited number of tickets available at the gate each night, space permitting</p>
+
+      </section>
+    </main>
+    <footer class="bg-gray text-center">
+      <!--#include virtual="footer.html"-->
+    </footer>
+  </div>
+
+  <script src="./javascript/slide.js"></script>
+</body>
+
+</html>

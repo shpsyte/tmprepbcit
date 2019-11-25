@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site Map - British Columbia</title>
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <!--#include virtual="header.html"-->
+      </nav>
+    </header>
+    <main>
+      <section class="hero text-center" style="height: 120px">
+        <div class="overlay"></div>
+        <div class="container text-write">
+          <h1>Site Map</h1>
+        </div>
+      </section>
+      <section class="bg-gray text-left">
+
+        <div class="sitemap">
+          <table>
+            <caption>Site Map</caption>
+            <tr>
+              <td style="width:250px"></td>
+              <th>Description</th>
+              <th>Link</th>
+            </tr>
+            <tr>
+              <th>Home</th>
+              <td>The home page of this site</td>
+              <td><a href="index.shtml">Home</a></td>
+            </tr>
+            <tr>
+              <th>Outdoor</th>
+              <td>Option to outdoor activities</td>
+              <td><a href="outdoor.shtml">Outdoors</a></td>
+            </tr>
+            <tr>
+              <th>Art and Culture</th>
+              <td>Option to outdoor Art and Culture</td>
+              <td><a href="artandculture.shtml">Art and Culture</a></td>
+            </tr>
+
+            <tr>
+              <th>Beaches</th>
+              <td>Option to our beaches</td>
+              <td><a href="beaches.shtml">Beaches</a></td>
+            </tr>
+
+            <tr>
+              <th>Contact Us</th>
+              <td>Send a message to us</td>
+              <td><a href="contactus.shtml">Contact Us</a></td>
+            </tr>
+
+            <tr>
+              <th>Tourism Search</th>
+              <td>All options to tourism here</td>
+              <td><a href="tourism.shtml">Search for Tourism</a></td>
+            </tr>
+
+            <tr>
+              <th>New in BC</th>
+              <td>survival kit in BC</td>
+              <td><a href="newidbc.shtml">New in BC</a></td>
+            </tr>
+
+
+          </table>
+        </div>
+      </section>
+
+    </main>
+    <footer class="bg-gray text-center">
+      <!--#include virtual="footer.html"-->
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

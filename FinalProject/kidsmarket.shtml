@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Kids Market, Granville Island - British Columbia</title>
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/slideshow.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <!--#include virtual="header.html"-->
+      </nav>
+    </header>
+    <main>
+      <section style="min-height:330px" class="bg-gray text-left">
+        <h2 class="pb-20 mb-20 bb">Kids Market, Granville Island</h2>
+        <img class="img-feature pull-left" width="300" src="./images/kids-market-granville-island-vancouver-CP0GCT.jpg">
+        <p class="text-news clear-right">
+          Warehouse-style, kid-centric shopping mall with a caboose, play area & an arcade, plus a bistro.
+          is an established destination for family fun and adventure.
+          With 2 levels of retail, entertainment, and a children’s only hair salon in the main building.
+          Find pet treats in the 50 year old Canadian Pacific Caboose out front
+          and more retail and food in the 2 annex buildings at the back.
+        </p>
+
+        <div class="link-h">
+          <ul>
+            <li><a target="_blank" href="http://www.kidsmarket.ca/">Official WebSite</a></li>
+
+
+          </ul>
+        </div>
+
+      </section>
+
+
+
+      <section style="min-height:330px" class="bg-write text-left">
+        <h2 class="pb-20 mt-20 bb">CREATED</h2>
+        <img class="img-feature pull-rigth img-righ" width="400" src="./images/gvi-27v2.png">
+        <p class="text-news">
+          in 1984, Kids Market transformed a hundred year old building that was originally a paint factory into a
+          magical place for kids with expansive wood-beam ceilings,
+          large windows and an airy market design.
+        </p>
+
+
+      </section>
+
+      <section class="bg-gray text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">EXPLORE</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          all that Kids Market has to offer to entertain and delight kids of all ages.
+          The Kids Market also has a place where you can have your birthday party. I've never been there, but it looks
+          pretty cool. If parents want to shop, and their kids hate shopping, they can drop them off at the Adventure
+          Zone. It has ball pits, slides, punching bags, and probably some other stuff I don't know about. Also, if it's
+          a hot day, and your kids are tired of playing games, you can head over to the water park. It has water guns, a
+          playground, waterslides and lots of water sprayers.
+        </p>
+
+
+      </section>
+
+
+      <section class="bg-write text-left">
+        <div class="container">
+          <h2 class="pb-20 mt-20 bb">Expense rating</h2>
+        </div>
+        <br>
+        <p class="text-news">
+          It doesn't cost any money to get into the Kids Market, but you do have to pay for the Adventure Zone and to
+          play the arcade games. But, like I said before, you can't beat the price (25 cents per game).
+        </p>
+      </section>
+    </main>
+    <footer class="bg-gray text-center">
+      <!--#include virtual="footer.html"-->
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

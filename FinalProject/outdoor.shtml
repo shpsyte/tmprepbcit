@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Outdoors Tourism Research - British Columbia</title>
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <!--#include virtual="header.html"-->
+
+      </nav>
+    </header>
+    <main>
+      <section class="hero text-center">
+        <div class="overlay"></div>
+        <img class="op-0200" src="./images/outdoors_bg.jpg" alt="BG Index">
+        <div class="container text-write">
+          <h1>Outdoors Activities.</h1>
+          <p>Wow, great choice, Ther are many option in Vancouver to Outddors activities.</p>
+          <p><strong>You will love!</strong>, but do not forget your food... </p>
+        </div>
+      </section>
+      <section class="bg-gray text-center">
+        <h4 class="pb-20 mt-20">Take a look in our options....</h4>
+        <Br>
+        <div class="card">
+          <div class="outdoors">
+            <img src="./images/stanley_park.jpg" alt="Stanley Park">
+            <p class="card-title">Stanley Park</p>
+            <p class="card-body">Stanley Park is a 405-hectare public park that borders...</p>
+            <a href="stanleypark.shtml">Learn more</a>
+          </div>
+          <div class="arts">
+            <img src="./images/vandusen.jpg" alt="VanDusen Botanical Garden ">
+            <p class="card-title">VanDusen Botanical Garden</p>
+            <p class="card-body">Dusen Botanical Garden is a 55-acre oasis ... </p>
+            <a href="vandusen.shtml">Learn more</a>
+          </div>
+          <div class="beaches">
+            <img src="./images/beaches.jpg" alt="Cypress Mountain">
+            <p class="card-title">Cypress Mountain</p>
+            <p class="card-body">Cypress Mountain is a ski area in West Vancouver ...</p>
+            <a href="cypress.shtml">Learn more</a>
+          </div>
+        </div>
+      </section>
+      <br class="clear">
+      <section class="bg-write mt-20 text-left p-50">
+        <div class="container">
+          <h2 class="pb-20">Introduction to the Outdoors in Vancouver</h2>
+          <p>Before you head out the door for you adventure, there’s one important consideration: <b>safety</b>...</p>
+        </div>
+        <br>
+        <p class="text-news">
+          Each year in the province of British Columbia there are over 1,000 search and <b> rescue missions
+            initiated.</b> That is more than all the other Canadian provinces combined. Most of these missions become
+          necessary due to a <b>lack of preparation</b> by those heading into the backcountry. Vancouver is a beautiful
+          city where you can enjoy many different types of outdoor recreation, but please be cautious and prepared
+          before heading out. Do not be fooled by your proximity to civilization. Once you step into the backcountry,
+          you are truly on your own.</p>
+
+        <p class="text-news">
+          Before <b>heading out on any trip</b> you should realize the unexpected can occur on your trip. This includes
+          sudden weather changes, injuries, getting lost, and <b>wildlife attacks.</b> For this reason, you must always
+          hike with the Ten Essentials (if hiking, or otherwise be properly prepared for your chosen sport). It is also
+          good idea to fill out a Trip Plan and leave it with someone you trust, so they know when to expect your return
+          and can provide the needed details to authorities if you don’t return.</p>
+      </section>
+    </main>
+    <footer class="bg-gray text-center">
+      <!--#include virtual="footer.html"-->
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
